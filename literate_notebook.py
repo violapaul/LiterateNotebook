@@ -299,7 +299,7 @@ def extract_metadata(lines):
     lines = [uncomment_line(l) for l in lines]
     return json.loads(" ".join(lines))
 
-#### Cell #21 Type: module #####################################################
+#### Cell #20 Type: module #####################################################
 
 # roundtrip-ing functions
 
